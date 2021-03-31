@@ -79,7 +79,7 @@ class BuyerReg extends React.Component {
     })
       .then((response) => {
         console.log(response.data);
-        this.props.history.replace("/buyerLogin");
+        this.props.history.replace("/Login");
       })
       .catch((err) => {
         this.setState({ isRegister: true });
