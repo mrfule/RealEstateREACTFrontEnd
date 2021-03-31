@@ -48,7 +48,7 @@ class Home extends React.Component {
               eventHandlers={{
                 click: (e) => {
                   if (localStorage.getItem("actorId") === null) {
-                    this.props.history.push("/login");
+                    this.props.history.push("/Login");
                   }
                 },
               }}
